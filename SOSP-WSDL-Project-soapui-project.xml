@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="28f92174-7bdf-4cab-9d52-6af181aa6db7" activeEnvironment="Default" name="SOSP WSDL Project" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:testSuite id="ef032ada-8d06-43b3-a490-be0d9c00f5f3" name="TestSuite 1"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="1ea5b204-c3ba-4484-9381-edfffe08a023" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCase 1" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy Script" id="5d6746a6-d2e5-40ad-9d06-821a7b9a7ab6"><con:settings/><con:config><script>def a = 0, b= 1, n = 10; 
+print a 
+n.times { 
+  (a,b) = [b,a+b]
+  print "," + a
+}</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
